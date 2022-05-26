@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/main.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Mobile Header -->
+    <header class="mobile-header-1">
+        <div class="container">
+            <!-- menu icon -->
+            <div class="menu-icon d-inline-flex mr-4">
+                <button id="toggler">
+                    <span></span>
+                </button>
+            </div>
+            <!-- logo img -->
+            <div class="site-logo">
+                <a href="index.html">
+                    <img src="./assets/imgs/Syd.jpg" alt="Syd">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Side Desktop Header -->
+    <div class="desktop-header">
+        <div class="site-logo">
+            <a href="index.html">
+                <img src="./assets/imgs/Syd.jpg" alt="Syd">
+            </a>
+        </div>
+        <nav>
+            <ul class="vertical-menu scrollspy">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#works">Works</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Page content -->
+
+    <main class="content">
+        <section id="home" class="home d-flex align-items-center">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar image -->
+                    <img src="./assets/imgs/avatar-1.svg" alt="Bolby" class="mb-4">
+                    <!-- info -->
+                    <h1 class="mb-2 mt-0">Syd Nguyen</h1>
+                    <span>
+                        I'm a Front-end Developer
+                    </span>
+                    <!-- social icons -->
+                    <ul class="social-icons light list-inline mb-0 mt-4">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-behance"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                    <!-- buttons -->
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-default">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section about -->
+        <section id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title">About Me</h2>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="text-center text-md-left">
+                            <!-- avatar img -->
+                            <img src="./assets/imgs/avatar-2.svg" alt="Bolby">
+                        </div>
+                    </div>
+                    <div class="col-md-9 triangle-left-md triangle-top-sm">
+                        <div class="rounded bg-white shadow-dark padding-30">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        I am Syd Nguyen, novice web developer from Hanoi, Vietnam. I'm currently looking for a front-end developer intern position. I have a basic understanding of HTML, CSS, and JavaScript. If you're hiring or looking for web development services, I'm always available.
+                                    </p>
+                                    <div class="mt-3">
+                                        <a href="#" class="btn btn-default">Download CV</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+        </section>
+        <!-- section Experience -->
+        <section id="experience">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Experience</h2>
+                <div class="spacer" data-height="60" style="height: 60px;"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+                            <!-- timeline items -->
+                            <div class="content">
+                                <span class="time">2015 - 2019</span>
+                                <h3 class="title">Bachelor's Degree</h3>
+                                <p>Ho Chi Minh City University of Education
+                                    Bachelor in Padagogy of English
+                                    .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- responsive spacer -->
+                        <div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;">
+                        </div>
+                        <!-- timeline wrapper -->
+                        <div class="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+							<div class="content">
+								<span class="time">2020 - Present</span>
+								<h3 class="title">Content Writer</h3>
+								<p>- Created and optimized blog posts for SEO.
+                                    <br>
+                                    - Worked with internal and external partners to develop and
+                                    execute content strategies.
+                                    <br>
+                                    - Performed well with project requirements and deadlines.
+                                    <br>
+                                    - Created well-researched and stimulating content.
+                                    <br>
+                                    - Worked collaboratively with team members to meet and
+                                    exceed project goals.
+                                    <br>
+                                    - Wrote client emails, and set up goals to benefit both sides.
+                                    </p>
+							</div>
+						</div>
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+							<div class="content">
+								<span class="time">2019 - 2020</span>
+								<h3 class="title">Customer Relation</h3>
+								<p>- Worked one-on-one with clients to understand their content
+                                    needs and goals.
+                                    <br>
+                                    - Developed content strategies to assure desirable outcomes.
+                                    <br>
+                                    - Wrote informative, motivational, and creative Q&A articles.
+                                    <br>
+                                    - Created content that accurately reflected company ideals
+                                    and offerings.
+                                    </p>
+							</div>
+						</div>
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
